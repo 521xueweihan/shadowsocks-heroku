@@ -4,7 +4,7 @@
 [Heroku](https://www.heroku.com/) 是一个支持多种编程语言的云平台即服务，shadowsocks-heroku 则是可部署在 Heroku 平台的ss服务。
 和 [shadowsocks](https://github.com/clowwindy/shadowsocks) 不同的是 shadowsocks-heroku 使用的 WebSocket 代替原本的 sockets。
 
-本项目主要介绍如何利用 heroku 部署 [shadowsocks-heroku](https://github.com/mrluanma/shadowsocks-heroku) 项目。预计十分钟后，你就可以 google 了。
+跟着下面的步骤，预计 **十分钟后**，你就可以 Google 了👻。
 
 ### 一、准备
 #### 1.注册 Heroku 帐号
