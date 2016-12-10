@@ -6,6 +6,10 @@
 
 跟着下面的步骤，预计 **十分钟后**，你就可以 Google 了👻。
 
+### 如果遇到问题
+请下面列表中寻找解决办法，新问题欢迎[创建issue](https://github.com/521xueweihan/shadowsocks-heroku/issues/new)进行讨论。
+- [Error: Cannot find module './merge_sort'](https://github.com/521xueweihan/shadowsocks-heroku/issues/1)
+
 ### 一、准备
 #### 1.注册 Heroku 帐号
 Heroku 提供免费账号，具体限制如下：
@@ -43,17 +47,7 @@ heroku 在创建项目的时候可以，通过关联 GitHub 账号，直接部�
 Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/3-min.png)
 
-### 四、启动本地 client：
-1. **进到本项目目录**，执行`npm install` 命令，安装依赖的库（如没有 npm ，请自行安装，[npm安装依赖慢](http://www.cnblogs.com/xueweihan/p/5491730.html)）
-2. 启动本地 client，`node local.js -s 你的app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -r 80`
-
-### 五、最后
-1. 下载：Chrome 浏览器[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases/download/v2.3.21/SwitchyOmega.crx)，如果下载地址失效，可以在本项目下的 download 下找到 SwitchyOmega.crx
-2. 安装：打开浏览器的扩展程序页面 chrome://extensions 。把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。
-3. 配置：SwitchyOmega：`代理协议：SOCKS5 代理服务器：127.0.0.1 代理端口：1080`，如下图：
-![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/5-min.png)
-
-### 支持的加密算法
+**支持的加密算法类型如下：**  
 - rc4
 - rc4-md5
 - table
@@ -69,3 +63,15 @@ Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 - camellia-256-cfb
 - camellia-192-cfb
 - camellia-128-cfb
+
+### 四、启动本地 client：
+1. **进到本项目目录**，执行`npm install` 命令，安装依赖的库（如没有 npm ，请自行安装，[npm安装依赖慢](http://www.cnblogs.com/xueweihan/p/5491730.html)）
+2. 启动本地 client，`node local.js -s 你的app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -r 80`
+
+### 五、最后
+1. 下载：Chrome 浏览器[SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases/download/v2.3.21/SwitchyOmega.crx)，如果下载地址失效，可以在本项目下的 download 下找到 SwitchyOmega.crx
+2. 安装：打开浏览器的扩展程序页面 chrome://extensions 。把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。
+3. 配置：SwitchyOmega：`代理协议：SOCKS5 代理服务器：127.0.0.1 代理端口：1080`，如下图：
+![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/5-min.png)
+4. 选择代理  
+![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/6-min.png)
