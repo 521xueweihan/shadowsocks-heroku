@@ -57,7 +57,7 @@ Heroku 在创建项目的时候可以通过关联 GitHub 账号，直接部署 G
 
 2. **用命令行（终端或 cmd）**，进到上述**解压出来的文件夹（目录）**
 
-3. 执行 `npm install -g` 命令，安装依赖的库（如 [npm 安装依赖慢请参考本篇文章](http://www.cnblogs.com/xueweihan/p/5491730.html)）
+3. 执行 `npm install` 命令，安装依赖的库（如 [npm 安装依赖慢请参考本篇文章](http://www.cnblogs.com/xueweihan/p/5491730.html)）
 
 4. **确保当前目录** 下有 `local.js` 文件，然后启动本地 client 命令格式：`node local.js -s 你的app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -r 80`
 
