@@ -7,6 +7,9 @@
     "https-proxy-agent": "^1.0.0",
     "ws": "^1.0.1"
   },
+  "engines": {
+    "node": "4.x"
+  },
   "scripts": {
     "start": "node server.js -b 0.0.0.0"
   }
